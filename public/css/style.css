@@ -1,0 +1,296 @@
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#home {
+  background: url("../img/crew2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#boats {
+  background: url("../img/background1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar img {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: -12px;
+  opacity: 0.8;
+}
+
+.navbar a {
+  display: inline-block;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+.jumbotron {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card .btn {
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.card .btn:hover {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
+.topbar {
+  margin: 20px 0 10px;
+}
+
+.topbar a {
+  display: inline-block;
+  margin-left: 25px;
+  color: #fff;
+}
+
+.topbar .active {
+  text-decoration: none;
+}
+
+.topbar .active h5 {
+  font-weight: 700;
+}
+
+.boatsTopbar a {
+  color: #333;
+}
+
+.sidebar {
+  margin-bottom: 45px;
+}
+
+.sidebar img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.sidebar .text-muted {
+  margin-bottom: 0;
+}
+
+.sidebar .addLinks {
+  margin-top: 15px;
+}
+
+.sidebar .addLinks a {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.sidebar .addLinks a span {
+  vertical-align: super;
+  font-size: 13px;
+  color: #dc3545;
+}
+
+.sidebar .radio {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.edit-sidebar .btn {
+  margin-bottom: 20px;
+}
+
+.deleteAccount {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.box {
+  margin-bottom: 45px;
+}
+
+.box h4 {
+  margin-bottom: 15px;
+}
+
+.box .sub-header {
+  margin-bottom: 15px;
+}
+
+.inner-box {
+  margin-bottom: 20px;
+}
+
+.inner-box .btn:not(button) {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+.msgListItem {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.msgListItem h5, .msgListItem h6, .msgListItem p {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.msgListItem h6 {
+  position: relative;
+  top: -3px;
+}
+
+.msgListItem h5 {
+  min-width: 200px;
+  max-width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  top: 4px;
+}
+
+.msgListItem p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 45%;
+  position: relative;
+  top: 6px;
+}
+
+.msgListItem a {
+  color: inherit;
+}
+
+.msgListItem .card-blockquote {
+  margin-bottom: 0;
+  line-height: 23px;
+}
+
+.msgListItem .card-body {
+  padding: 2px 10px;
+}
+
+.msgListItem .openMsg, .msgListItem .openMsgSent {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.msgListItem .closeMsg {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.msgListItem .deleteMsg {
+  text-decoration: none;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+}
+
+.previewMsg p {
+  width: 100%;
+  font-size: 16px;
+}
+
+.previewMsg a {
+  margin-bottom: 15px !important;
+}
+
+.sentMessages {
+  margin-top: 40px;
+}
+
+.list {
+  margin-bottom: 50px;
+}
+
+.list .responsiveTable {
+  overflow-x: auto;
+}
+
+.list h6 {
+  display: inline-block;
+}
+
+.list .sort {
+  margin-bottom: 10px;
+}
+
+.list .sort a {
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.list td, .list th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.list img {
+  max-width: 85px;
+  max-height: 60px;
+  width: auto;
+  margin: 0;
+}
+
+.list .listImg {
+  padding: 2px;
+}
+
+.list .btn {
+  margin: 0;
+}
+
+.list .highlight {
+  font-weight: 700;
+  -webkit-box-shadow: 0 0 5px;
+  box-shadow: 0 0 5px;
+  padding: 2px 2px 0 2px;
+  border-radius: 2px;
+}
+
+.export {
+  float: right;
+  margin-right: 15px;
+  -webkit-text-decoration-style: dotted;
+  text-decoration-style: dotted;
+}
+
+.help-block {
+  color: #dc3545;
+}
+
+.radio-button {
+  width: 1px;
+  height: 1px;
+  opacity: 1;
+  -ms-appearance: radio;
+  -moz-appearance: radio;
+  -webkit-appearance: radio;
+  appearance: radio;
+  margin-left: -20px;
+}
